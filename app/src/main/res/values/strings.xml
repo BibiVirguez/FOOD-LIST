@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">FoodList</string>
     <string name="Siguiente">Button</string>
+    <string name="title_activity_perfil_parte5">PerfilParte5</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>
