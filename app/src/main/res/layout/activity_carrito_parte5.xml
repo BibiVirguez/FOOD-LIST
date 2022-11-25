@@ -8,6 +8,54 @@
     tools:context=".CarritoParte5">
 
     <TextView
+        android:id="@+id/datosBanano4"
+        android:layout_width="253dp"
+        android:layout_height="83dp"
+        android:drawableBottom="@drawable/datosbananos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <TextView
+        android:id="@+id/datosTomates4"
+        android:layout_width="313dp"
+        android:layout_height="70dp"
+        android:drawableBottom="@drawable/datostomate1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.357"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.446" />
+
+    <TextView
+        android:id="@+id/datosLeche3"
+        android:layout_width="287dp"
+        android:layout_height="71dp"
+        android:drawableBottom="@drawable/datosleche1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.309" />
+
+    <TextView
+        android:id="@+id/datosCarneCerdo4"
+        android:layout_width="272dp"
+        android:layout_height="85dp"
+        android:drawableBottom="@drawable/datoscarnecerdo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.388"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.591" />
+
+    <TextView
         android:id="@+id/carrito6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -17,18 +65,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.111" />
-
-    <ImageButton
-        android:id="@+id/guardar6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.806"
-        app:srcCompat="@drawable/guardar2" />
 
     <ImageButton
         android:id="@+id/salir16"
@@ -51,6 +87,6 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.937"
+        app:layout_constraintVertical_bias="0.915"
         app:srcCompat="@drawable/eliminar" />
 </androidx.constraintlayout.widget.ConstraintLayout>

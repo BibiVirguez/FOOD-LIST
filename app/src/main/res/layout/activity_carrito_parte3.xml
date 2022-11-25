@@ -8,6 +8,53 @@
     tools:context=".CarritoParte3">
 
     <TextView
+        android:id="@+id/datosBanano2"
+        android:layout_width="253dp"
+        android:layout_height="83dp"
+        android:drawableBottom="@drawable/datosbananos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.279" />
+
+    <TextView
+        android:id="@+id/datosCarneCerdo2"
+        android:layout_width="272dp"
+        android:layout_height="85dp"
+        android:drawableBottom="@drawable/datoscarnecerdo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.453" />
+
+    <TextView
+        android:id="@+id/datosTomates2"
+        android:layout_width="313dp"
+        android:layout_height="70dp"
+        android:drawableBottom="@drawable/datostomate1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.593" />
+
+    <TextView
+        android:id="@+id/datosLeche2"
+        android:layout_width="348dp"
+        android:layout_height="68dp"
+        android:drawableBottom="@drawable/eliminarproducto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.723" />
+
+    <TextView
         android:id="@+id/carrito3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -31,22 +78,14 @@
         app:srcCompat="@drawable/salir" />
 
     <ImageButton
-        android:id="@+id/Aceptar1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/Cancelar1"
+        android:layout_width="256dp"
+        android:layout_height="51dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.816"
-        app:srcCompat="@drawable/aceptar" />
-
-    <ImageButton
-        android:id="@+id/Cancelar1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/cancelar"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="625dp" />
+        app:layout_constraintVertical_bias="0.895"
+        app:srcCompat="@drawable/cancelar" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -16,5 +16,20 @@ class CarritoParte2 : AppCompatActivity() {
             val intent1 = Intent(this, MainActivity::class.java)
             startActivity(intent1)
         }
+
+        val Eliminar1: ImageButton = findViewById(R.id.Eliminar1)
+        Eliminar1.setOnClickListener {
+
+            val intent1 = Intent(this, CarritoParte3::class.java)
+            startActivity(intent1)
+        }
+
+        val DatosLeche2: ImageButton = findViewById(R.id.datosLeche2)
+        DatosLeche2.setOnClickListener {
+
+            val intent1 = Intent(this, CarritoParte3::class.java)
+            startActivity(intent1)
+        }
+
     }
 }
