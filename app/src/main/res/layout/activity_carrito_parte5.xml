@@ -5,10 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#3140BF"
-    tools:context=".CarritoParte1">
+    tools:context=".CarritoParte5">
 
     <ImageButton
-        android:id="@+id/salir6"
+        android:id="@+id/guardar6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.806"
+        app:srcCompat="@drawable/guardar2" />
+
+    <ImageButton
+        android:id="@+id/salir16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -20,7 +32,7 @@
         app:srcCompat="@drawable/salir" />
 
     <ImageButton
-        android:id="@+id/Categorias2"
+        android:id="@+id/eliminar2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -28,17 +40,6 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.916"
-        app:srcCompat="@drawable/categoria1" />
-
-    <TextView
-        android:id="@+id/Carrito1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:drawableBottom="@drawable/carrito1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.111" />
+        app:layout_constraintVertical_bias="0.937"
+        app:srcCompat="@drawable/eliminar" />
 </androidx.constraintlayout.widget.ConstraintLayout>
