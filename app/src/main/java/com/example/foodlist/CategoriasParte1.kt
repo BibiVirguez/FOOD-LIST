@@ -29,6 +29,13 @@ class CategoriasParte1 : AppCompatActivity() {
 
             val intent3: Intent = Intent(this, CategoriasParte4Carnes::class.java)
             startActivity(intent3)
+
+            val salir8: ImageButton = findViewById(R.id.salir8)
+            salir8.setOnClickListener {
+
+                val intent4 = Intent(this, MainActivity::class.java)
+                startActivity(intent4)
+            }
         }
 
     }

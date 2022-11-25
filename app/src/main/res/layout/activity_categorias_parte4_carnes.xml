@@ -41,4 +41,28 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.117" />
+
+    <TextView
+        android:id="@+id/DatosCarneCerdo"
+        android:layout_width="281dp"
+        android:layout_height="124dp"
+        android:drawableBottom="@drawable/datoscarnecerdo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.313" />
+
+    <TextView
+        android:id="@+id/DatosCarneRes"
+        android:layout_width="321dp"
+        android:layout_height="129dp"
+        android:drawableBottom="@drawable/datoscarneres"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.788"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.563" />
 </androidx.constraintlayout.widget.ConstraintLayout>

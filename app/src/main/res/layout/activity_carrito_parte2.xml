@@ -7,6 +7,65 @@
     android:background="#3140BF"
     tools:context=".CarritoParte2">
 
+    <TextView
+        android:id="@+id/datosBanano"
+        android:layout_width="253dp"
+        android:layout_height="83dp"
+        android:drawableBottom="@drawable/datosbananos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.348"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.719" />
+
+    <TextView
+        android:id="@+id/datosCarneCerdo"
+        android:layout_width="272dp"
+        android:layout_height="85dp"
+        android:drawableBottom="@drawable/datoscarnecerdo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.323"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.56" />
+
+    <TextView
+        android:id="@+id/datosTomates"
+        android:layout_width="313dp"
+        android:layout_height="70dp"
+        android:drawableBottom="@drawable/datostomate1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.265"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.416" />
+
+    <TextView
+        android:id="@+id/carrito2"
+        android:layout_width="191dp"
+        android:layout_height="63dp"
+        android:drawableBottom="@drawable/carrito1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.111" />
+
+    <TextView
+        android:id="@+id/datosLeche"
+        android:layout_width="287dp"
+        android:layout_height="71dp"
+        android:drawableBottom="@drawable/datosleche1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.419"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.278" />
+
     <ImageButton
         android:id="@+id/salir13"
         android:layout_width="wrap_content"
@@ -21,26 +80,26 @@
 
     <ImageButton
         android:id="@+id/Eliminar1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="247dp"
+        android:layout_height="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.937"
+        app:layout_constraintVertical_bias="0.96"
         app:srcCompat="@drawable/eliminar" />
 
     <ImageButton
         android:id="@+id/Guardar2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="242dp"
+        android:layout_height="35dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.806"
+        app:layout_constraintVertical_bias="0.85"
         app:srcCompat="@drawable/guardar2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

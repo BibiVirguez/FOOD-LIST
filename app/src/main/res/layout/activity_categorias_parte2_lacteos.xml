@@ -8,6 +8,18 @@
     tools:context=".CategoriasParte2Lacteos">
 
     <ImageButton
+        android:id="@+id/carrito7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.894"
+        app:srcCompat="@drawable/carrito2" />
+
+    <ImageButton
         android:id="@+id/salir9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -30,15 +42,27 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.117" />
 
-    <ImageButton
-        android:id="@+id/Carrito2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <TextView
+        android:id="@+id/DatosLeche"
+        android:layout_width="283dp"
+        android:layout_height="116dp"
+        android:drawableBottom="@drawable/datosleche1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.894"
-        app:srcCompat="@drawable/carrito2" />
+        app:layout_constraintVertical_bias="0.325" />
+
+    <TextView
+        android:id="@+id/DatosYogur"
+        android:layout_width="286dp"
+        android:layout_height="103dp"
+        android:drawableBottom="@drawable/datosyogur1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.352"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.57" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

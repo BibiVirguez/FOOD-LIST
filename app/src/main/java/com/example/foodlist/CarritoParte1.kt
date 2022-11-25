@@ -16,6 +16,13 @@ class CarritoParte1 : AppCompatActivity() {
 
             val intent1 = Intent(this, CategoriasParte1::class.java)
             startActivity(intent1)
-}
+       }
+
+        val salir6: ImageButton = findViewById(R.id.salir6)
+        salir6.setOnClickListener {
+
+            val intent1 = Intent(this, MainActivity::class.java)
+            startActivity(intent1)
+        }
     }
 }
