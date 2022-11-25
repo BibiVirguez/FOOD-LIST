@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
+import android.widget.TextView
 
 class CarritoParte4 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,6 +16,13 @@ class CarritoParte4 : AppCompatActivity() {
 
             val intent1 = Intent(this, MainActivity::class.java)
             startActivity(intent1)
+
+            val cancelar: ImageButton = findViewById(R.id.Cancelar)
+            cancelar1.setOnClickListener {
+
+                val intent1 = Intent(this, CarritoParte4::class.java)
+                startActivity(intent1)
+            }
         }
     }
 }

@@ -24,12 +24,6 @@ class CarritoParte2 : AppCompatActivity() {
             startActivity(intent1)
         }
 
-        val DatosLeche2: ImageButton = findViewById(R.id.datosLeche2)
-        DatosLeche2.setOnClickListener {
-
-            val intent1 = Intent(this, CarritoParte3::class.java)
-            startActivity(intent1)
-        }
 
     }
 }

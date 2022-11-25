@@ -22,6 +22,13 @@ class CarritoParte3 : AppCompatActivity() {
 
                 val intent1 = Intent(this, CarritoParte4::class.java)
                 startActivity(intent1)
+
+                val datosLeche2: TextView = findViewById(R.id.datosLeche2)
+                datosLeche2.setOnClickListener {
+
+                    val intent1 = Intent(this, CarritoParte4::class.java)
+                    startActivity(intent1)
+                }
             }
         }
     }
